@@ -1,8 +1,8 @@
 ## Multi-view Spectral Clustering Algorithms
 This repository contains 7 multi-view spectral clustering algorithms (and a single-view spectral clustering algorithm) used for comparison in our paper  "[Multi-view Graph Learning by Joint Modeling of Consistency and Inconsistency](https://arxiv.org/abs/2008.10208)", which is the follow-up work of our ICDM paper "Consistency Meets Inconsistency: A Unified Graph Learning Framework for Multi-view Clustering". 
 The code of some algorithms was gathered from the websites of the authors of the original papers and was later fixed and optimized by us. 
-Please see our paper for the details of these algorithms (the folder names correspond to the abbreviations for the algorithms in our paper).
-
+Please see our paper for the details of these algorithms (the folder names correspond to the abbreviations for the algorithms in our paper).  
+**For the code of our Multi-view Graph Learning algorithm, please see [this repository](https://github.com/youweiliang/Multi-view_Graph_Learning).**
 
 ### Preparation
 * **Windows 64bit**: 
