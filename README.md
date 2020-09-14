@@ -16,6 +16,9 @@ The original papers for the 7 multi-view spectral clustering algorithms and the 
 
 **For the code of our Multi-view Graph Learning algorithm, please see [this repository](https://github.com/youweiliang/Multi-view_Graph_Learning).**
 
+All datasets used in our paper are available at [Baidu Cloud](https://pan.baidu.com/s/1bAfDcgH3NguqWM6saDTv1g) with code `pqti` and [Google Drive](https://drive.google.com/drive/folders/1UtjL0Og7ALs9AJq9XnkdrYUmr5rudCyk?usp=sharing). Each dataset is a mat file containing 2 variables `fea` (i.e., a MATLAB cell of features) and `gt` (i.e., ground truth label), except the file `flower17.mat` which contains a cell of distance matrices and ground truth since features are unavailable. 
+
+
 ### Preparation
 * **Windows 64bit**: 
 Add some helper files to MATLAB path by `addpath('MinMaxSelection')` command in MATLAB command window.
