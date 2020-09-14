@@ -4,14 +4,14 @@ The code of some algorithms was gathered from the websites of the authors of the
 Please see our paper for the details of these algorithms (the folder names correspond to the abbreviations for the algorithms in our paper, namely, **AASC, AWP, CoReg, MCGC, MVGL, RMSC,** and **WMSC**). In each of these folders, there is a main file `xxx_main.m` for the algorithm where `xxx` is the algorithm name.  
 
 The original papers for the 7 multi-view spectral clustering algorithms and the single-view spectral clustering (SC) algorithm are:
-* Huang et al., Affinity aggregation for spectral clustering
-* Nie et al., Multiview clustering via adaptively weighted procrustes
-* Kumar et al., A co-training approach for multi-view spectral clustering
-* Zhan et al., Multiview consensus graph clustering
-* Zhan et al., Graph learning for multiview clustering
-* Xia et al., Robust multi-view spectral clustering via low-rank and sparse decomposition
-* Zong et al., Weighted multi-view spectral clustering based on spectral perturbation
-* Ng et al., On spectral clustering: Analysis and an algorithm
+* Huang et al., 2012. Affinity Aggregation for Spectral Clustering
+* Nie et al., 2018. Multiview Clustering via Adaptively Weighted Procrustes
+* Kumar et al., 2011. Co-regularized Multi-view Spectral Clustering
+* Zhan et al., 2018. Multiview Consensus Graph Clustering
+* Zhan et al., 2017. Graph Learning for Multiview Clustering
+* Xia et al., 2014. Robust Multi-view Spectral Clustering via Low-rank and Sparse Decomposition
+* Zong et al., 2018. Weighted Multi-view Spectral Clustering Based on Spectral Perturbation
+* Ng et al., 2002. On Spectral Clustering: Analysis and an Algorithm
 
 
 **For the code of our Multi-view Graph Learning algorithm, please see [this repository](https://github.com/youweiliang/Multi-view_Graph_Learning).**
