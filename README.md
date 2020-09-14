@@ -22,9 +22,9 @@ All datasets used in our paper are available at [Baidu Cloud](https://pan.baidu.
 
 ### Preparation
 * **Windows 64bit**: 
-Add some helper files to MATLAB path by `addpath('MinMaxSelection')` command in MATLAB command window.
+Add some helper files to MATLAB path by `addpath('MinMaxSelection'); addpath('utils')` command in MATLAB command window.
 * **Linux, Windows 32bit and Mac OS**: 
-Add some helper files to MATLAB path by `addpath('MinMaxSelection')` command in MATLAB command window. Then recompile the helper functions by running `minmax_install`.
+Add some helper files to MATLAB path by `addpath('MinMaxSelection'); addpath('utils')` command in MATLAB command window. Then recompile the helper functions by running `minmax_install`.
 
 
 ### Example usage
