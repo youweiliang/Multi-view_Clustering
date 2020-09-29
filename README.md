@@ -18,7 +18,8 @@ The original papers for the 7 multi-view spectral clustering algorithms and the 
 
 ### Dataset
 All datasets used in our paper are available at [Baidu Cloud](https://pan.baidu.com/s/1bAfDcgH3NguqWM6saDTv1g) with code `pqti` and [Google Drive](https://drive.google.com/drive/folders/1UtjL0Og7ALs9AJq9XnkdrYUmr5rudCyk?usp=sharing). Each dataset is a mat file containing 2 variables `fea` (i.e., a MATLAB cell of features) and `gt` (i.e., ground truth label), except the file `flower17.mat` which contains a cell of distance matrices and ground truth since features are unavailable. 
-
+* The distance matrices in `flower17.mat` should be squared before passing them into the SGF and DGF functions, and the string `original` should be passed into the functions as the metric parameter. 
+* The datasets `Reuters`, `Reuters-21578`, `BBCSport`, and `CiteSeer` are text datasets with word frequence as features and thus should be used with the `cosine` metric for computing distance matrices. 
 
 ### Preparation
 * **Windows 64bit**: 
